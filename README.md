@@ -1,4 +1,7 @@
 # TheUltimateCalculator
+
+The Project Kanban of Project: https://github.com/users/julio7528/projects/1
+
 This Code write a calculation between two numbers. But not a simple way! This code Have: Logs, Database Recording, Json Manipulation, Error Handling, ChatGPT Comment About the Calculation, Twitter API Posting and more... 
 
 The Current Commit Version Works
@@ -24,9 +27,9 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
 Folder PATH listing
 
 Project:.
-¦   .gitignore
-¦   main.py
-¦   calc.py
+¦   .gitignore\n
+¦   main.py\n
+¦   calc.py\n
 ¦   README.md
 ¦   requirements.txt
 ¦   
