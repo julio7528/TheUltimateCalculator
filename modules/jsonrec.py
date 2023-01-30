@@ -4,8 +4,18 @@ from tkinter import messagebox
 
 #Importing Modules
 from modules.log import logmessage as log
-
 class fJson:
+
+    """
+    This function jsonRecord() is used to create a json file with the data of two numbers (a, b) and the result of their division.
+    Attributes: 
+    a: First number to be divided. 
+    b: Second number to be divided. 
+    Methods: 
+    pubRecordJson(): Creates a json file with the data of two numbers (a, b) and the result of their division. 
+    __recordJson(): Writes the data in a json file.  
+    """
+
     def __init__(self,a ,b):   
         self.a = a
         self.b = b  

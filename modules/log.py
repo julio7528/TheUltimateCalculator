@@ -1,9 +1,3 @@
-'''
-    This module is used to record the log in a text file
-    Main Functions:
-        log(message) -> Record the log in the file
-        logStruct() -> Record the log structure in the file
-'''
 # Importing the libraries
 from datetime import datetime
 import psutil, os, traceback
@@ -11,10 +5,24 @@ from tkinter import messagebox
 
 # Creating the class logFile
 class logFile:
+
+    """
+    This class is used to log messages in a file.
+    Attributes:
+        now (datetime): The current date and time.
+        message (str): The message to be logged.
+        logfile (str): The path of the file where the logs will be stored. 
+    Methods: 
+        _log(): Records the log in the file using a message. 
+        _logStructure(): Log struct is only used in the beginning and the ending of the file. 
+        pubLog(): Calls _log() method to record the log in the file using a message. 
+        pubLogStructure(): Calls _logStructure() method to log struct in the beginning and the ending of the file.  
+    """
+
     def __init__(self, message):
         self.now = datetime.now()
         self.message = message
-        self.logfile = './modules/logStructure.txt'
+        self.logfile = './Logs/logStructure.txt'
 
     def _log(self): #Record the log in the file using a message
         now = self.now

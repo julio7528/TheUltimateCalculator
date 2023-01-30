@@ -1,0 +1,28 @@
+Log:30/01/2023 00:12:36:169997 - Password Loaded Successfully - File: PassLoad.py
+                                                                                          CPU%:27.7%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:185956 - Password Loaded Successfully - File: PassLoad.py
+                                                                                          CPU%:33.3%-CPUGHZ:2904.0-MEM:70.7%
+------------------------------------------------------------------------------------------
+Log:30/01/2023 00:12:36:196956 - Starting the project in File: main.py
+                                                                                          CPU%:0.0%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:203942 - Reading Json File - Line: 47 - File: calc.py
+                                                                                          CPU%:16.7%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:205959 - First Number Charged From Json File: 32215 - Line: 52 - File: calc.py
+                                                                                          CPU%:0.0%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:205959 - Second Number Charged From Json File: 454564 - Line: 55 - File: calc.py
+                                                                                          CPU%:33.3%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:227504 - Division of 32215 and 454564 - Line: 30 - File: calc.py
+                                                                                          CPU%:0.0%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:235509 - Result is Float: 0.0709 - Line: 37 - File: calc.py
+                                                                                          CPU%:33.3%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:244467 - Saving data in Json File - Line: 25
+                                                                                          CPU%:0.0%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:36:253435 - Data Saved - Line: 34
+                                                                                          CPU%:16.7%-CPUGHZ:2904.0-MEM:70.7%
+Log:30/01/2023 00:12:38:873881 - Data Recorded in Azure Database: 2023-01-30, 32215, 454564, 0.0709, In the future, this will be a comment by ChatGPT API
+                                                                                          CPU%:10.0%-CPUGHZ:2904.0-MEM:70.8%
+Log:30/01/2023 00:12:39:205621 - Tree Structure Recorded in ./Logs/Tree.txt encodec as utf-8
+                                                                                          CPU%:12.5%-CPUGHZ:2904.0-MEM:70.8%
+Log:30/01/2023 00:12:39:205621 - Program Finished - Line: 34 - File: main.py
+                                                                                          CPU%:16.7%-CPUGHZ:2904.0-MEM:70.8%
+------------------------------------------------------------------------------------------

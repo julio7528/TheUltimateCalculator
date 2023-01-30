@@ -5,8 +5,23 @@ from termcolor import colored
 
 #Importing Modules
 from modules.log import logmessage as log
-
 class calculateDiv:
+    """
+    This class performs a division of two numbers, taking them from a json file.
+    Attributes: 
+        a (int): First number to be divided.
+        b (int): Second number to be divided.
+        c (float): Result of the division.
+    Methods: 
+        __init__(self, a, b): Initializes the class with two numbers to be divided. 
+        __division(self): Performs the division of two numbers and stores the result in attribute c.
+        __evaluateResult(self): Evaluates the result of the division and returns it as float or int depending on its type.
+        __inputTwoNumbers(self): Reads two numbers from a json file and stores them in attributes a and b respectively. 
+        pubDivision(self, a, b): Calls method __division() and returns its result stored in attribute c. 
+        pubEvaluateResult(self): Calls method __evaluateResult() and returns its result as float or int depending on its type.
+        pubInputTwoNumbers(self): Calls method __inputTwoNumbers() and returns attributes a and b respectively. 
+    """
+        
     def __init__(self, a, b):
         self.a = a
         self.b = b
