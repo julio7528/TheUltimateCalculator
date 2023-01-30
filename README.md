@@ -18,11 +18,12 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Tree Path Updated each ending of process✅
   - Use an Interaction Tkinter Window to Choose If Start Typing or Using the .json file✍️
   - Post Result in Twitter Using API✍️
-  - Record Results in MySql Database✍️
+  - Record Results in Azure SQL Database✅
   - Send e-mail Log and process ocurrence✍️
   - Explain Calculation Report Using ChatGPT AI API✍️
   - XML File Configuration (email, file directory, database, connections strings)✍️
   - Generating a Dashboard in Excel or PowerShell Sharing in Power Platform✍️
+  - Key Vault Using Encripted Libraries ✅
 
 Folder PATH listing
 
