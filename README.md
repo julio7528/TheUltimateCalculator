@@ -19,7 +19,7 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Post Result in Twitter Using API✅
   - Record Results in SQL Database✅
   - Explain Calculation Report Using ChatGPT AI API✅
-  - Send e-mail Log and process ocurrence ✍️
+  - Send e-mail Log and proccess ocurrence ✍️
   - XML File Configuration (email, file directory, database, connections strings) ✍️
   - Generating a Dashboard in Excel or PowerShell Sharing in Power Platform ✍️
   - Console or Tkinter UI Switch ✍️
