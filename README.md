@@ -27,38 +27,4 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Console Menu Managering API Keys in Database ✍️
 
 Folder PATH listing
-
-C:.
-¦___.gitignore
-¦___calc.py
-¦___main.py
-¦___README.md
-¦___requirements.txt
-¦
-+---DatabaseSQL
-¦_______createTable.sql
-¦_______creteTableGPTAPI.sql
-¦_______creteTableTwAPI.sql
-¦_______insertTable.sql
-¦_______insertTableTwAPI.sql
-¦
-+---InputOutput
-¦_______input.json
-¦_______output.json
-¦
-+---Logs
-¦_______logStructure.txt
-¦_______Tree.txt
-¦
-+---modules
-¦   ¦___apiPostRequest.py
-¦   ¦___azureDB.py
-¦   ¦___jsonrec.py
-¦   ¦___keyCalculation.key
-¦   ¦___log.py
-¦   ¦___model.py
-¦   ¦___newKeyCalculation.key
-¦   ¦___PassGen.py
-¦   ¦___PassLoad.py
-¦   ¦___tree.py
-¦   ¦_____init__.py
+![Tree](https://user-images.githubusercontent.com/58828552/215863975-1b5eac30-362c-49de-80cf-89181f3cc0fe.png)
