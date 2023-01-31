@@ -66,14 +66,4 @@ C:.
 ¦   ¦   PassLoad.py
 ¦   ¦   tree.py
 ¦   ¦   __init__.py
-¦   ¦   
-¦   +---__pycache__
-¦           apiPostRequest.cpython-310.pyc
-¦           azureDB.cpython-310.pyc
-¦           errorHandling.cpython-310.pyc
-¦           jsonrec.cpython-310.pyc
-¦           log.cpython-310.pyc
-¦           PassLoad.cpython-310.pyc
-¦           tree.cpython-310.pyc
-¦           __init__.cpython-310.pyc
 ```
