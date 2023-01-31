@@ -77,5 +77,3 @@ C:.
 ¦           tree.cpython-310.pyc
 ¦           __init__.cpython-310.pyc
 ```
-
-![Tree](https://user-images.githubusercontent.com/58828552/215863975-1b5eac30-362c-49de-80cf-89181f3cc0fe.png)
