@@ -9,7 +9,7 @@
 The Project Kanban: https://github.com/users/julio7528/projects/1
 
 This Code write a calculation between two numbers. But not a simple way! This code Have: Logs, Database Recording, Json Manipulation, Error Handling, ChatGPT Comment About the Calculation, Twitter API Posting and more... 
-```
+```diff
 + The Current Commit Version Works
 - It Still in Development...
 ```
