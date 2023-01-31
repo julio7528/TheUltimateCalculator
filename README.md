@@ -26,5 +26,6 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Console Menu Managering .key Files ✍️
   - Console Menu Managering API Keys in Database ✍️
 
-Folder PATH listing
+Folder PATH listing:
+
 ![Tree](https://user-images.githubusercontent.com/58828552/215863975-1b5eac30-362c-49de-80cf-89181f3cc0fe.png)
