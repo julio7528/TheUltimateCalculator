@@ -26,6 +26,10 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Console Menu Managering .key Files ✍️
   - Console Menu Managering API Keys in Database ✍️
 
+Output Excectuion in Console:
+
+![OutputConsole](https://user-images.githubusercontent.com/58828552/215864535-40d0fecf-52aa-4fa3-a1be-67c1cb823b76.png)
+
 Folder PATH listing:
 
 ![Tree](https://user-images.githubusercontent.com/58828552/215863975-1b5eac30-362c-49de-80cf-89181f3cc0fe.png)
