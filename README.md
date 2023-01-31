@@ -7,7 +7,7 @@ This Code write a calculation between two numbers. But not a simple way! This co
 The Current Commit Version Works
 
 It Still in Development...
-<span style="color: green"> Some green text </span>
+
 Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
 
   - Import and Export Data to .json file✅
