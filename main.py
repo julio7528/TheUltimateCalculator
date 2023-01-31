@@ -16,13 +16,15 @@ from modules.tree import treeRecord
 from modules.jsonrec import jsonRecord
 from calc import mainCalc
 from modules.azureDB import insertTable
+from modules.apiPostRequest import mainApi
 
 try:
     logStruct() #Record the structure of the project
     logmessage(f'Starting the project in File: {os.path.basename(__file__)}')
     n1, n2 = mainCalc()
     jsonRecord(n1, n2)
-    insertTable(n1, n2)   
+    gptComment = mainApi(n1, n2)
+    insertTable(n1, n2, gptComment)    
     treeRecord()    
 except Exception as e:
     print(colored(f"🤣 🤣 🤣 An Error Ocurred While Executing the File: {os.path.basename(__file__)} - Message: {e} - Line: {traceback.extract_tb(e.__traceback__)[0][1]}", "red") + " \U0001F602" + " \U0001F602" + " \U0001F602")

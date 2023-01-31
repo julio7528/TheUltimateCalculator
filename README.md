@@ -15,37 +15,50 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Error Handling✅
   - Private Functions✅
   - Colored Messages✅
-  - Tree Path Updated each ending of process✅
-  - Use an Interaction Tkinter Window to Choose If Start Typing or Using the .json file✍️
-  - Post Result in Twitter Using API✍️
-  - Record Results in MySql Database✍️
-  - Send e-mail Log and process ocurrence✍️
-  - Explain Calculation Report Using ChatGPT AI API✍️
-  - XML File Configuration (email, file directory, database, connections strings)✍️
-  - Generating a Dashboard in Excel or PowerShell Sharing in Power Platform✍️
+  - Tree Path Updated each ending of process✅  
+  - Post Result in Twitter Using API✅
+  - Record Results in SQL Database✅
+  - Explain Calculation Report Using ChatGPT AI API✅
+  - Send e-mail Log and process ocurrence ✍️
+  - XML File Configuration (email, file directory, database, connections strings) ✍️
+  - Generating a Dashboard in Excel or PowerShell Sharing in Power Platform ✍️
+  - Console or Tkinter UI Switch ✍️
+  - Console Menu Managering .key Files ✍️
+  - Console Menu Managering API Keys in Database ✍️
 
 Folder PATH listing
 
-Project:.
-¦   .gitignore\n
-¦   main.py\n
-¦   calc.py\n
-¦   README.md
-¦   requirements.txt
-¦   
+C:.
+¦___.gitignore
+¦___calc.py
+¦___main.py
+¦___README.md
+¦___requirements.txt
+¦
++---DatabaseSQL
+¦_______createTable.sql
+¦_______creteTableGPTAPI.sql
+¦_______creteTableTwAPI.sql
+¦_______insertTable.sql
+¦_______insertTableTwAPI.sql
+¦
 +---InputOutput
-¦       input.json
-¦       output.json
-¦       
+¦_______input.json
+¦_______output.json
+¦
 +---Logs
+¦_______logStructure.txt
+¦_______Tree.txt
+¦
 +---modules
-¦   ¦   log.py
-¦   ¦   logStructure.txt
-¦   ¦   tree.py
-¦   ¦   __init__.py
-¦   ¦   
-¦   +---__pycache__
-¦           errorHandling.cpython-310.pyc
-¦           log.cpython-310.pyc
-¦           tree.cpython-310.pyc
-¦           __init__.cpython-310.pyc
+¦   ¦___apiPostRequest.py
+¦   ¦___azureDB.py
+¦   ¦___jsonrec.py
+¦   ¦___keyCalculation.key
+¦   ¦___log.py
+¦   ¦___model.py
+¦   ¦___newKeyCalculation.key
+¦   ¦___PassGen.py
+¦   ¦___PassLoad.py
+¦   ¦___tree.py
+¦   ¦_____init__.py

@@ -9,7 +9,10 @@ C:.
 ¦   
 +---DatabaseSQL
 ¦       createTable.sql
+¦       creteTableGPTAPI.sql
+¦       creteTableTwAPI.sql
 ¦       insertTable.sql
+¦       insertTableTwAPI.sql
 ¦       
 +---InputOutput
 ¦       input.json
@@ -20,6 +23,7 @@ C:.
 ¦       Tree.txt
 ¦       
 +---modules
+¦   ¦   apiPostRequest.py
 ¦   ¦   azureDB.py
 ¦   ¦   jsonrec.py
 ¦   ¦   keyCalculation.key
@@ -32,6 +36,7 @@ C:.
 ¦   ¦   __init__.py
 ¦   ¦   
 ¦   +---__pycache__
+¦           apiPostRequest.cpython-310.pyc
 ¦           azureDB.cpython-310.pyc
 ¦           errorHandling.cpython-310.pyc
 ¦           jsonrec.cpython-310.pyc

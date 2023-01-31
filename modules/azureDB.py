@@ -74,13 +74,13 @@ try:
         cn.commit()
         Name.closeDB(cn)
 
-    def insertTable(n1,n2,pswDB = Name().psw()):
+    def insertTable(n1,n2,gptComment,pswDB = Name().psw()):
         createTable(pswDB)
         #Variables
         today = datetime.datetime.now()
         date = today.strftime("%Y-%m-%d")
         result = format(n1/n2, '.4f') 
-        comment = "In the future, this will be a comment by ChatGPT API"       
+        comment = gptComment       
 
         #execution:Read .Database/insertTable.sql file and record in a variable
         cn = Name.connectDB(pswDB)
@@ -90,8 +90,20 @@ try:
         cursor.execute(sqlInsertTable, (date, n1, n2, result, comment))
         cn.commit()
         print()
-        print(f"This Calculation was Recorded in Azure Database: {date}, {n1}, {n2}, {result}, {comment}✅")
-        log(f"Data Recorded in Azure Database: {date}, {n1}, {n2}, {result}, {comment}")
+        print(f"This Calculation was Recorded in Azure Database: {date}, {n1}, {n2}, {result}✅")
+        log(f"Data Recorded in Azure Database: {date}, {n1}, {n2}, {result}")
+        Name.closeDB(cn)
+
+    def createTableAPI(pswDB = Name().psw()): #This function is used to create the table for the TwitterAPI
+        cn = Name.connectDB(pswDB)
+        #Read .Database/createTable.sql file and record in a variable
+        with open(".\DatabaseSQL\createTableAPI.sql", "r") as file:
+            sqlCreateTable = file.read()
+        #Execute the SQL Query
+        #print(sqlCreateTable)
+        cursor = cn.cursor()
+        cursor.execute(sqlCreateTable)
+        cn.commit()
         Name.closeDB(cn)
 
 except Exception as e:
