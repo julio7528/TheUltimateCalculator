@@ -31,4 +31,51 @@ Output Excectuion in Console:
 
 Folder PATH listing:
 
+```bash
+C:.
+¦   .gitignore
+¦   calc.py
+¦   main.py
+¦   README.md
+¦   requirements.txt
+¦   
++---DatabaseSQL
+¦       createTable.sql
+¦       creteTableGPTAPI.sql
+¦       creteTableTwAPI.sql
+¦       insertTable.sql
+¦       insertTableTwAPI.sql
+¦       
++---InputOutput
+¦       input.json
+¦       output.json
+¦       
++---Logs
+¦       logStructure.txt
+¦       Tree.txt
+¦       
++---modules
+¦   ¦   apiPostRequest.py
+¦   ¦   azureDB.py
+¦   ¦   jsonrec.py
+¦   ¦   keyCalculation.key
+¦   ¦   log.py
+¦   ¦   model.py
+¦   ¦   newKeyCalculation.key
+¦   ¦   PassGen.py
+¦   ¦   PassLoad.py
+¦   ¦   tree.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           apiPostRequest.cpython-310.pyc
+¦           azureDB.cpython-310.pyc
+¦           errorHandling.cpython-310.pyc
+¦           jsonrec.cpython-310.pyc
+¦           log.cpython-310.pyc
+¦           PassLoad.cpython-310.pyc
+¦           tree.cpython-310.pyc
+¦           __init__.cpython-310.pyc
+```
+
 ![Tree](https://user-images.githubusercontent.com/58828552/215863975-1b5eac30-362c-49de-80cf-89181f3cc0fe.png)
