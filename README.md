@@ -21,6 +21,8 @@ Changes/Features - Done or Under Construction (✅Done - ✍️ Writing):
   - Send e-mail Log and proccess ocurrence ✍️
   - XML File Configuration (email, file directory, database, connections strings) ✍️
   - Generating a Dashboard in Excel or PowerShell Sharing in Power Platform ✍️
+  - Django Portal Server Management Logs Calcs ✍️
+  - Selenium Automation Calc in Django Forms ✍️
   - Console or Tkinter UI Switch ✍️
   - Console Menu Managering .key Files ✍️
   - Console Menu Managering API Keys in Database ✍️
