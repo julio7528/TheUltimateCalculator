@@ -7,10 +7,14 @@ C:.
 ¦   README.md
 ¦   requirements.txt
 ¦   
++---.vscode
+¦       settings.json
+¦       
 +---DatabaseSQL
 ¦       createTable.sql
-¦       creteTableGPTAPI.sql
-¦       creteTableTwAPI.sql
+¦       createTableEmailKey.sql
+¦       createTableGPTAPI.sql
+¦       createTableTwAPI.sql
 ¦       insertTable.sql
 ¦       insertTableTwAPI.sql
 ¦       
@@ -25,6 +29,7 @@ C:.
 +---modules
 ¦   ¦   apiPostRequest.py
 ¦   ¦   azureDB.py
+¦   ¦   emailPost.py
 ¦   ¦   jsonrec.py
 ¦   ¦   keyCalculation.key
 ¦   ¦   log.py
@@ -38,6 +43,7 @@ C:.
 ¦   +---__pycache__
 ¦           apiPostRequest.cpython-310.pyc
 ¦           azureDB.cpython-310.pyc
+¦           emailPost.cpython-310.pyc
 ¦           errorHandling.cpython-310.pyc
 ¦           jsonrec.cpython-310.pyc
 ¦           log.cpython-310.pyc
